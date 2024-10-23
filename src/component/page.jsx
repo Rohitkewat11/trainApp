@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useFormik } from "formik";
 import axios from "axios";
 
-function Page() {
+export function Page() {
   const [stop, setStop] = useState();
   const [arrival, setArrival] = useState();
   const [departure, setDeparture] = useState();
@@ -361,5 +361,3 @@ function Page() {
     </>
   );
 }
-
-export default Page;
